@@ -1,0 +1,8 @@
+prefix=/home/gabriel/vision_ws/install
+
+Name: custom_package
+Description: Description of custom_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

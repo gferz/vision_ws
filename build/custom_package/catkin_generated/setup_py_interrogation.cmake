@@ -1,0 +1,7 @@
+set(custom_package_SETUP_PY_SETUP_MODULE "distutils.core")
+set(custom_package_SETUP_PY_VERSION "0.0.0")
+set(custom_package_SETUP_PY_SCRIPTS "")
+set(custom_package_SETUP_PY_PACKAGES "yolov5")
+set(custom_package_SETUP_PY_PACKAGE_DIRS "src/yolov5")
+set(custom_package_SETUP_PY_MODULES "")
+set(custom_package_SETUP_PY_MODULE_DIRS "")
