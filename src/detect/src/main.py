@@ -12,6 +12,7 @@ class Main():
     def publish(self,x,y):
         point = Point(x,y,-1)
         self.pub.publish(point)
+        self.rate.sleep()
 
     def __call__(self):
         while not rospy.is_shutdown():
