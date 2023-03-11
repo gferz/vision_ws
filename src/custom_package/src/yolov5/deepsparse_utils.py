@@ -91,9 +91,9 @@ def get_yolo_loader_and_saver(
     if path.isnumeric():
         loader = YoloWebcamLoader(int(path), image_size)
         saver = (
-            VideoSaver(save_dir, 30, loader.original_frame_size, None)
-            if not args.no_save
-            else None
+            # VideoSaver(save_dir, 30, loader.original_frame_size, None)
+            # if not args.no_save
+            # else None
         )
         return loader, saver, True
     # image file(s)
